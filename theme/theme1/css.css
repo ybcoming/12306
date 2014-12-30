@@ -1,0 +1,138 @@
+*{
+ margin:0;
+ padding:0;
+
+}
+body{
+ color:#FFF;
+ background-color:#000;
+}
+
+a {
+ color:white;
+ text-decoration:none;
+}
+
+[class*="col"] {
+  float: left;
+  display: inline;
+  min-height: 1px;
+  position: relative;
+  margin-left: 3.091%;
+}
+
+[class*="col"]:first-child {
+  margin-left: 0;
+}
+
+.col1 {
+  width: 5.5%;
+}
+
+.col2 {
+  width: 14.091%;
+}
+
+.col3 {
+  width: 22.682%;
+}
+
+.col4 {
+  width: 31.273%;
+}
+
+.col5 {
+  width: 39.864%;
+}
+
+.col6 {
+  width: 48.455%;
+}
+
+.col7 {
+  width: 57.045%;
+}
+
+.col8 {
+  width: 65.636%;
+}
+
+.col9 {
+  width: 74.227%;
+}
+
+.col10 {
+  width: 82.818%;
+}
+
+.col11 {
+  width: 91.409%;
+}
+
+.col12 {
+  width: 100%;
+}
+
+.header{
+  width: 100%;
+  height:120px;
+}
+.logo{ 
+  height:120px;
+  background-color:#EC7E00;
+}
+.slogo{
+  height:48px;
+  padding-bottom:10px;
+}
+
+.slogo p{
+font-size:30px;
+margin:0 auto;
+padding-top:20px;
+}
+.container {
+width:1200px;
+margin:0 auto;
+}
+.main-nav{
+padding-top:10px;
+height:60px;
+font-size:20px;
+}
+.main-nav span{
+position: absolute;
+top: 0;
+left: 0;
+margin-top: -2px;
+height: 2px;
+width: 100%;
+}
+.main-nav>a.home span, .main-nav>a.home:hover, .main-nav>a.home:active {
+background: #e18728;
+}
+.main-nav>a.videos span, .main-nav>a.videos:hover, .main-nav>a.videos:active{
+background: #BE4C39;
+}
+.main-nav>a.almanac span, .main-nav>a.almanac:hover, .main-nav>a.almanac:active{
+background: #9351A6;
+}
+.main-nav>a.snippets span, .main-nav>a.snippets:hover, .main-nav>a.snippets:active {
+background: #4472B9;
+}
+.main-nav>a.forums span, .main-nav>a.forums:hover, .main-nav>a.forums:active {
+background: #4CA454;
+}
+.main-nav>a.jobs span, .main-nav>a.jobs:hover, .main-nav>a.jobs:active {
+background: #d49b00;
+}
+.main-nav>a.lodge span, .main-nav>a.lodge:hover, .main-nav>a.lodge:active {
+background: #444444;
+}
+.main-nav>a {
+padding: 15px;
+color: white;
+position: relative;
+display: inline;
+float:left; 
+}
